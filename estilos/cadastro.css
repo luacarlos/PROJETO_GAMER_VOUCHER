@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    background-image: url(../imagens/background.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: rgb(46, 66, 69);
+    align-items: center;
+    justify-content: center;
+}
+.form-box{
+    display: flex;
+    width: 95%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.434);
+    backdrop-filter: blur(15px);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.form-cadastro{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.titulo-form{
+    color: rgb(98, 177, 189);
+    padding: 20px;
+}
+.input-group{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.nome-input{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+.input-group input{
+    width: 70%;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgba(143, 143, 143, 0.586);
+    border: 2px solid transparent;
+    outline: none;
+    font-size: 14px;
+    padding: 10px;
+    transition: all 0.4s ease;
+    color: rgb(0, 221, 221);
+}
+.input-group input::placeholder{
+    color: rgb(0, 144, 144);
+    font-size: 16px;
+}
+.group-button{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-form{
+    width: 30%;
+    height: 30px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
